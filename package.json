@@ -1,0 +1,22 @@
+{
+  "name": "graphqlgen-sandbox",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "gen": "gql-gen",
+    "prisma-gen": "graphqlgen"
+  },
+  "devDependencies": {
+    "graphql-code-generator": "^0.14.5",
+    "graphql-codegen-add": "^0.14.5",
+    "graphql-codegen-time": "^0.14.5",
+    "graphql-codegen-typescript-client": "^0.14.5",
+    "graphql-codegen-typescript-common": "^0.14.5",
+    "graphql-codegen-typescript-resolvers": "^0.14.5",
+    "graphql-codegen-typescript-server": "^0.14.5",
+    "graphqlgen": "^0.4.0",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.2.2"
+  }
+}

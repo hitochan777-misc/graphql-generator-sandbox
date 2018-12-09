@@ -1,0 +1,9 @@
+schema: ./schema.graphql
+generates:
+  ./server.ts:
+    plugins:
+      - add: "/* コメントなど任意のコードを追加できます。 */"
+      - time
+      - typescript-common
+      - typescript-resolvers
+      - typescript-server
